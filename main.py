@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Masukkan token bot Anda dari BotFather
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = '7913825794:AAHG18egVi2J85MXrF5dUCA5Izotjkxc6CE'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Halo! Saya adalah bot sederhana.')
